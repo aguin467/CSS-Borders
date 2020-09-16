@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS-Borders</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>CSS Border</h1>
+
+    <p>
+      <a href="./about.html">ABOUT</a> | <a href = "./github.html">Github</a>
+    </p>
+
+    <div id="square" width="300" height="200"></div>
+
+    <main>
+        <ul>
+          <p>GLOBAL</p>
+            <li> Border-style:
+              <select name="border-style" id="border-style-input">
+                <option value="solid">Solid</option>
+                <option value="hidden">Hidden</option>
+                <option value="none">None</option>
+                <option value="dotted">Dotted</option>
+                <option value="dashed">Dashed</option>
+                <option value="double">Double</option>
+                <option value="groove">Groove</option>
+                <option value="ridge">Ridge</option>
+                <option value="inset">Inset</option>
+                <option value="outset">Outset</option>
+                <option value="initial">Initial</option>
+                <option value="inherit">Inherit</option>
+              </select>
+            </li>
+            <li>Border-width: 
+              <!-- 10 -->
+              <input type="number" name="border-width-value" id="border-width-value-input"></input>
+              <select name="border-width-unit" id="border-width-unit-input">
+                <option value="px">px</option>
+                <option value="rem">rem</option>
+              </select>
+            </li>
+            <li>Border-color: 
+              <input type="color" name="border-color" id="border-color-input"></input>
+            </li>
+            <li>Border-radius: 
+              <input type="number" name="border-radius-value" id="border-radius-value-input"></input>
+              <select name="border-radius-unit" id="border-radius-unit-input">
+                  <option value="px">px</option>
+                  <option value="rem">rem</option>
+              </select>
+            </li>
+        </ul>
+        <ul>
+          <p>OVERRIDE SIDES</p>
+          <li>Border Side:
+            <select name="border-side" id="border-side-input">
+              <option value="Left">Left</option>
+              <option value="Right">Right</option>
+              <option value="Top">Top</option>
+              <option value="Bottom">Bottom</option>
+            </select>
+          </li>
+          <li> Border-style:
+          <select name="side-border-style" id="side-border-style-input">
+            <option value="solid">Solid</option>
+            <option value="hidden">Hidden</option>
+            <option value="none">None</option>
+            <option value="dotted">Dotted</option>
+            <option value="dashed">Dashed</option>
+            <option value="double">Double</option>
+            <option value="groove">Groove</option>
+            <option value="ridge">Ridge</option>
+            <option value="inset">Inset</option>
+            <option value="outset">Outset</option>
+            <option value="initial">Initial</option>
+            <option value="inherit">Inherit</option>
+          </select>
+        </li>
+        <li>Border-width: 
+          <input type="number" name="side-border-width-value" id="side-border-width-value-input"></input>
+          <select name="side-border-width-unit" id="side-border-width-unit-input">
+            <option value="px">px</option>
+            <option value="rem">rem</option>
+          </select>
+        </li>
+        <li>Border-color: 
+          <input type="color" name="side-border-color" id="side-border-color-input"></input>
+        </li>
+        <li>Border-radius: 
+          <input type="number" name="side-border-radius-value" id="side-border-radius-value-input"></input>
+          <select name="side-border-radius-unit" id="side-border-radius-unit-input">
+              <option value="px">px</option>
+              <option value="rem">rem</option>
+          </select>
+        </li>
+    </ul>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
